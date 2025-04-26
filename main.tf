@@ -9,6 +9,6 @@ resource "aws_security_group" "default" {
   vpc_id      = var.vpc_id
 
   tags = {
-    Name = "allow_tls"
+    Name = "barney"
   }
 }
